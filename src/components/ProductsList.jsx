@@ -13,6 +13,7 @@ export const ProductsList = () => {
           cat={item.cat}
           desc={item.desc}
           url={item.url}
+          img={sk.img}
         />
       ))}
     </div>
